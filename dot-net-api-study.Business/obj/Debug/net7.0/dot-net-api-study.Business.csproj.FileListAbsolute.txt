@@ -1,0 +1,12 @@
+/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/bin/Debug/net7.0/dot-net-api-study.Business.deps.json
+/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/bin/Debug/net7.0/dot-net-api-study.Business.dll
+/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/bin/Debug/net7.0/dot-net-api-study.Business.pdb
+/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/obj/Debug/net7.0/dot-net-api-study.Business.csproj.AssemblyReference.cache
+/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/obj/Debug/net7.0/dot-net-api-study.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/obj/Debug/net7.0/dot-net-api-study.Business.AssemblyInfoInputs.cache
+/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/obj/Debug/net7.0/dot-net-api-study.Business.AssemblyInfo.cs
+/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/obj/Debug/net7.0/dot-net-api-study.Business.csproj.CoreCompileInputs.cache
+/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/obj/Debug/net7.0/dot-net-api-study.Business.dll
+/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/obj/Debug/net7.0/refint/dot-net-api-study.Business.dll
+/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/obj/Debug/net7.0/dot-net-api-study.Business.pdb
+/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/obj/Debug/net7.0/ref/dot-net-api-study.Business.dll
