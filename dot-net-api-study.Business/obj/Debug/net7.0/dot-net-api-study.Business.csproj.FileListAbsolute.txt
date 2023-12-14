@@ -10,3 +10,16 @@
 /Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/obj/Debug/net7.0/refint/dot-net-api-study.Business.dll
 /Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/obj/Debug/net7.0/dot-net-api-study.Business.pdb
 /Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/obj/Debug/net7.0/ref/dot-net-api-study.Business.dll
+C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\bin\Debug\net7.0\dot-net-api-study.Business.deps.json
+C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\bin\Debug\net7.0\dot-net-api-study.Business.dll
+C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\bin\Debug\net7.0\dot-net-api-study.Business.pdb
+C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\obj\Debug\net7.0\dot-net-api-study.Business.csproj.AssemblyReference.cache
+C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\obj\Debug\net7.0\dot-net-api-study.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\obj\Debug\net7.0\dot-net-api-study.Business.AssemblyInfoInputs.cache
+C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\obj\Debug\net7.0\dot-net-api-study.Business.AssemblyInfo.cs
+C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\obj\Debug\net7.0\dot-net-api-study.Business.csproj.CoreCompileInputs.cache
+C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\obj\Debug\net7.0\dot-net-api-study.Business.sourcelink.json
+C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\obj\Debug\net7.0\dot-net-api-study.Business.dll
+C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\obj\Debug\net7.0\refint\dot-net-api-study.Business.dll
+C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\obj\Debug\net7.0\dot-net-api-study.Business.pdb
+C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\obj\Debug\net7.0\ref\dot-net-api-study.Business.dll

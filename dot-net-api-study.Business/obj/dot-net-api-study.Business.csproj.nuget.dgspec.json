@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/dot-net-api-study.Business.csproj": {}
+    "C:\\Users\\jemanuel\\Source\\Repos\\csharp-api-study\\dot-net-api-study.Business\\dot-net-api-study.Business.csproj": {}
   },
   "projects": {
-    "/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/dot-net-api-study.Business.csproj": {
+    "C:\\Users\\jemanuel\\Source\\Repos\\csharp-api-study\\dot-net-api-study.Business\\dot-net-api-study.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/dot-net-api-study.Business.csproj",
+        "projectUniqueName": "C:\\Users\\jemanuel\\Source\\Repos\\csharp-api-study\\dot-net-api-study.Business\\dot-net-api-study.Business.csproj",
         "projectName": "dot-net-api-study.Business",
-        "projectPath": "/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/dot-net-api-study.Business.csproj",
-        "packagesPath": "/Users/emanuel/.nuget/packages/",
-        "outputPath": "/Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/obj/",
+        "projectPath": "C:\\Users\\jemanuel\\Source\\Repos\\csharp-api-study\\dot-net-api-study.Business\\dot-net-api-study.Business.csproj",
+        "packagesPath": "C:\\Users\\jemanuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jemanuel\\Source\\Repos\\csharp-api-study\\dot-net-api-study.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/emanuel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jemanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/acessocardvsts/_packaging/Acesso%40Local/nuget/v3/index.json": {}
+          "https://pkgs.dev.azure.com/acessocardvsts/_packaging/Acesso@Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -38,6 +39,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -49,12 +60,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

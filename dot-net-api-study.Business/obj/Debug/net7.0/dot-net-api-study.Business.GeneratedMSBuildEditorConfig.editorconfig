@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dot_net_api_study.Business
-build_property.ProjectDir = /Users/emanuel/Projects/dot-net-api-study/dot-net-api-study.Business/
+build_property.ProjectDir = C:\Users\jemanuel\Source\Repos\csharp-api-study\dot-net-api-study.Business\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

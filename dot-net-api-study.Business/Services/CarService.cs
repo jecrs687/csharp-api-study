@@ -1,35 +1,43 @@
 ﻿using System;
+using dot_net_api_study.Business.Configurations;
 using dot_net_api_study.Business.Dto.Requests;
 using dot_net_api_study.Business.Dto.Responses;
+using dot_net_api_study.Business.Interfaces.Clients;
+using dot_net_api_study.Business.Interfaces.Services;
 using dot_net_api_study.Business.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace dot_net_api_study.Business.Services
 {
-	public class CarService
+	public class CarService:ICarService
 	{
-        private List<Car> cars = new()
+		private readonly CarConfig _carConfig;
+		private readonly IConfiguration _configuration;
+		private readonly IGiuseppinBeeceptorClient _responseClient;
+
+		private List<Car> cars;
+		public CarService(
+			CarConfig carConfig, 
+			IConfiguration configuration,
+			 IGiuseppinBeeceptorClient responseClient
+			)
+		{
+			_carConfig = carConfig;
+			_configuration = configuration;
+			_responseClient = responseClient;
+
+			cars = new()
 		{
 			new Car() {
 				id = 2,
-				cor = "teste"
+				cor = _configuration.GetSection("CarConfig").GetSection("Color").Value,
 			}
-		}; 
-		public CarService()
-        {
-        }
-        public GetCarResponse GetCar(int id)
+		};
+		}
+		public async Task<GetGiuseppinResponseClient> GetGiuseppin(int id)
 		{
-            Car car = cars.Where(x => x.id == id).FirstOrDefault();
-			if (car is null) return null;
-
-			GetCarResponse carResponse = new()
-			{
-				id = car.id,
-				cor = car.cor
-			};
-
-			return carResponse;
-        }
+			return await _responseClient.GetGiuseppin(id);
+		}
 		public PostCarResponse PostCar(
 			PostCarRequest car
 			)
